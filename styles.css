@@ -76,7 +76,8 @@ a:hover {
 }
 .bottom-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   color: #f4f4fd;
   background-color: var(--background-color-studio);
   padding: 94px 0;
@@ -84,7 +85,8 @@ a:hover {
 
 .bottom-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   padding-left: 190px;
   font-family: var(--text-font-family);
   font-size: 18px;
@@ -144,6 +146,22 @@ a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  background-color: #4d5ae5;
+  color: #ffff;
+  width: 169px;
+  height: 56px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 3px;
+  border-width: 1px;
+  cursor: pointer;
+  padding: 16px 32px;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #4d5ae5;
   color: #ffff;
   width: 169px;
@@ -327,6 +345,7 @@ a:hover {
 
 .media-list {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
@@ -346,6 +365,11 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.web-footer {
+  display: flex;
+  flex-direction: column;
 }
 
 .icons-footer {
@@ -458,4 +482,10 @@ a:hover {
 
 .form-footer {
   padding: 10px 25px;
+}
+
+.svg-modal {
+  padding: 3px 0px;
+  width: 18px;
+  height: 24px;
 }
