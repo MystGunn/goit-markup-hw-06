@@ -416,3 +416,18 @@ a:hover {
   font-family: var(--overlay-font-family);
   font-size: 16px;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input {
+  padding: 10px 15px;
+  border-radius: 10px;
+}

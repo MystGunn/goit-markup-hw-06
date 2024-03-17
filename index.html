@@ -65,7 +65,48 @@
       <div class="modal is-hidden" data-modal>
         <div class="modal-content">
           <button class="close-btn" data-modal-close>&times;</button>
-          Continut
+          <form
+            action
+            method="get"
+            class="form"
+            name="form-info"
+            autocomplete="on"
+          >
+            <h3>Leave your contacts and we will call you back</h3>
+
+            <div role="group" class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autofocus />
+            </div>
+
+            <div role="group" class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" autofocus />
+            </div>
+
+            <div role="group" class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                required
+                autofocus
+                placeholder="example@gmail.com"
+              />
+            </div>
+
+            <div role="group" class="form-group">
+              <label for="comment">Comment</label>
+              <textarea
+                name="comment"
+                id="comment"
+                cols="30"
+                rows="10"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+          </form>
         </div>
       </div>
 
