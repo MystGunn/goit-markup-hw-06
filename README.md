@@ -1,2 +1,2 @@
-# goit-markup-hw-06
- GoIT Tema 6
+# goit-markup-hw-01
+ Tema 1 HTML & CSS
