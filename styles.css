@@ -348,6 +348,11 @@ a:hover {
   align-items: center;
 }
 
+.icons-footer {
+  display: flex;
+  flex-direction: row;
+}
+
 .is-hidden {
   visibility: hidden;
   transform: scale(1.1);
@@ -429,5 +434,28 @@ a:hover {
 
 .form-group input {
   padding: 10px 15px;
+  border: solid #8e8f99;
   border-radius: 10px;
+}
+
+.comment {
+  border: solid #8e8f99;
+  border-radius: 10px;
+}
+
+.form-group :hover,
+.form-group :focus {
+  border-color: #4d5ae5;
+}
+
+.email {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  color: #ffff;
+  background-color: #2e2f42;
+}
+
+.form-footer {
+  padding: 10px 25px;
 }

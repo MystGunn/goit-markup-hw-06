@@ -101,6 +101,7 @@
               <textarea
                 name="comment"
                 id="comment"
+                class="comment"
                 cols="30"
                 rows="10"
                 placeholder="Text input"
@@ -456,50 +457,74 @@
 
         <div class="media-list">
           <p>Social media</p>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            class="icon"
-            aria-label="instagram-link"
-          >
-            <svg>
-              <use href="./icons/symbol-defs.svg#icon-instagram"></use>
-            </svg>
-          </a>
 
-          <a
-            href="https://www.twitter.com"
-            target="_blank"
-            class="icon"
-            aria-label="twitter-link"
-          >
-            <svg>
-              <use href="./icons/symbol-defs.svg#icon-twitter"></use>
-            </svg>
-          </a>
+          <div class="icons-footer">
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              class="icon"
+              aria-label="instagram-link"
+            >
+              <svg>
+                <use href="./icons/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
 
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            class="icon"
-            aria-label="facebook-link"
-          >
-            <svg>
-              <use href="./icons/symbol-defs.svg#icon-facebook"></use>
-            </svg>
-          </a>
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              class="icon"
+              aria-label="twitter-link"
+            >
+              <svg>
+                <use href="./icons/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
 
-          <a
-            href="https://www.linkedin.com"
-            target="_blank"
-            class="icon"
-            aria-label="linkedin-link"
-          >
-            <svg>
-              <use href="./icons/symbol-defs.svg#icon-linkedin"></use>
-            </svg>
-          </a>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              class="icon"
+              aria-label="facebook-link"
+            >
+              <svg>
+                <use href="./icons/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              class="icon"
+              aria-label="linkedin-link"
+            >
+              <svg>
+                <use href="./icons/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </div>
         </div>
+
+        <form
+          action
+          method="get"
+          class="form"
+          name="form-info"
+          autocomplete="on"
+        >
+          <p>Subscribe</p>
+          <div class="form-footer">
+            <label for="email"></label>
+            <input
+              class="email"
+              type="text"
+              id="email"
+              name="email"
+              autofocus
+              placeholder="E-mail"
+            />
+          </div>
+        </form>
       </div>
     </footer>
 
