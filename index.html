@@ -75,17 +75,23 @@
             <h3>Leave your contacts and we will call you back</h3>
 
             <div role="group" class="form-group">
-              <label for="name">Name</label>
+              <label for="name" class="form-label">Name</label>
               <input type="text" id="name" name="name" autofocus />
+              <svg class="form-icons">
+                <use href="./icons/new-symbol.svg#icon-agenda"></use>
+              </svg>
             </div>
 
             <div role="group" class="form-group">
-              <label for="phone">Phone</label>
+              <label for="phone" class="form-label">Phone</label>
               <input type="tel" id="phone" name="phone" autofocus />
+              <svg class="form-icons">
+                <use href="/icons/new-symbol.svg#icon-phone"></use>
+              </svg>
             </div>
 
             <div role="group" class="form-group">
-              <label for="email">Email</label>
+              <label for="email" class="form-label">Email</label>
               <input
                 type="text"
                 id="email"
@@ -94,21 +100,43 @@
                 autofocus
                 placeholder="example@gmail.com"
               />
+              <svg class="form-icons">
+                <use href="./icons/new-symbol.svg#icon-mail"></use>
+              </svg>
             </div>
 
             <div role="group" class="form-group">
-              <label for="comment">Comment</label>
+              <label for="comment" class="form-label">Comment</label>
               <textarea
                 name="comment"
                 id="comment"
                 class="comment"
                 cols="30"
-                rows="10"
+                rows="5"
                 placeholder="Text input"
               ></textarea>
             </div>
 
-            <button type="submit" class="form-button">Send</button>
+            <div>
+              <label class="agree-check">
+                <input
+                  type="checkbox"
+                  class="checkmark"
+                  name="agreement"
+                  value="agree"
+                />
+                <svg class="icon" width="16" height="16">
+                  <use href="./icons/checkbox.svg#checkbox"></use>
+                </svg>
+                <span class="service-text">
+                  I accept the terms and conditions of the Privacy Policy
+                </span>
+              </label>
+            </div>
+
+            <div class="button-form">
+              <button type="submit" class="form-button">Send</button>
+            </div>
           </form>
         </div>
       </div>
@@ -527,6 +555,13 @@
               autofocus
               placeholder="E-mail"
             />
+
+            <button class="subscribe-btn" type="submit">
+              Subscribe
+              <svg class="subscribe">
+                <use href="./icons/subscribe.svg#send"></use>
+              </svg>
+            </button>
           </div>
         </form>
       </div>
