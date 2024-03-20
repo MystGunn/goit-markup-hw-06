@@ -532,8 +532,8 @@ a:hover {
 }
 
 .agree-check .checkmark:checked + .icon {
-  background-color: #2196f3;
-  border-color: #2196f3;
+  background-color: #4d5ae5;
+  border-color: #4d5ae5;
   fill: #ffffff;
   outline: none;
   stroke: #ffff;
